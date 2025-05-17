@@ -25,4 +25,8 @@ app.get("/certifications", (req, res) => {
     res.json(portfolioData.certificationsData);
 });
 
+app.get("/portfolio-data", (req, res) => {
+    res.json(portfolioData);
+});
+
 module.exports = app;
