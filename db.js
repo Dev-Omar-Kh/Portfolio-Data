@@ -1,4 +1,4 @@
-{
+const portfolioData =  {
 
     "aboutMe": {
 
@@ -401,3 +401,5 @@
     ]
 
 }
+
+module.exports = {portfolioData};
